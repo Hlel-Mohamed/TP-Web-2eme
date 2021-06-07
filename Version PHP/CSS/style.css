@@ -1,0 +1,40 @@
+body {
+    background-color: rgba(0, 0, 0, 0.849);
+    color: rgba(177, 115, 0, 0.911);
+}
+
+.m-container{
+    position: absolute;
+    min-height: 100%;
+    padding: 5%;
+    padding-top: 13%;
+    width: 40%;
+    left: 30%;
+    background-color: rgba(0, 0, 0, 0.849);
+}
+
+#bmr{
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.input-group{
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.center{
+    position: relative;
+    padding-right: 30%;
+    padding-left: 30%;
+}
+
+#show-saved:checked ~ .table{
+    display: auto;
+}
+
+#table{
+    height: 220px;
+    overflow-y: auto;
+    margin-top: 20px;
+}
